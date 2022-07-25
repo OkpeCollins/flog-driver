@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "FLOG-driver",
+    "slug": "FLOG-driver",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 20
+    },
+    "assetBundlePatterns": [
+      "**/assets"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "backgroundColor": "#000000",
+      "bundleIdentifier": "com.flog.flogdriver",
+      "buildNumber": "1",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDEvI_1pSCp9V5hTDZP0Gl1LDq67l_3N6g"
+      },
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app uses the photo library to upload neccesary documents.",
+        "NSLocationWhenInUseUsageDescription": "This app uses your loacation to direct dispatch rider to your location."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 2,
+      "userInterfaceStyle": "dark",
+      "permissions": [ "ACCESS_FINE_LOCATION" ],
+      "package": "com.flog.flogdriver",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBXXf0i8S04T-O_ev3enK2wIzRgS9Me2ao"
+        }
+      }
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#000000"
+    },
+    "notification": {
+      "icon": "./assets/notificationIcon.png",
+      "color": "#979797",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "FLOG Notification"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
